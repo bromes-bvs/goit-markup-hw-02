@@ -1,0 +1,64 @@
+/* Основний колір #212121 */
+/* Вторинний колір #757575 */
+/* Акцент #2196F3 */
+/* Ефективні рішення цвет текста #FFFFFF */
+/* Фон основний #FFFFFF */
+/* Вторинний колір фону #2F303A */
+/* Контакти footer кольори rgba(255, 255, 255, 1) ; rgba(255, 255, 255, 0.6) */
+/* Кольори логотипу #000000 #2196F3 */
+/* Фон наша команда #F5F4FA */
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+.logo-link {
+  color: #000000;
+}
+ul {
+  list-style: none;
+}
+/*  Navigation */
+nav .link {
+  color: #212121;
+}
+nav .link:hover,
+nav .link:focus {
+  color: #2196f3;
+}
+/* Контакти header */
+.header-conacts .сontacts-link {
+  color: #757575;
+}
+.header-conacts .сontacts-link:hover,
+.header-conacts .сontacts-link:focus {
+  color: #2196f3;
+}
+/* Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero .title {
+  color: #ffffff;
+}
+.order-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.features {
+  background-color: inherit;
+}
+.features .title,
+.work-title,
+.team-title {
+  color: #212121;
+}
+.features .text {
+  color: #757575;
+}
+.section-team {
+  background: #f5f4fa;
+}
+.card {
+  background: #ffffff;
+}
